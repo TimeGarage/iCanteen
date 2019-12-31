@@ -16,15 +16,15 @@
 
 #### 菜品展示
 
-<img src="/Users/dustin/Downloads/Dev/iCanteen/images4md/首页.PNG" alt="img" style="zoom: 25%;" /><img src="/Users/dustin/Downloads/Dev/iCanteen/images4md/菜品评论.PNG" alt="img" style="zoom: 25%;" /><img src="/Users/dustin/Downloads/Dev/iCanteen/images4md/菜品筛选.PNG" alt="img" style="zoom: 25%;" />
+<img src="./images4md/首页.PNG" alt="img" style="zoom: 25%;" /><img src="./images4md/菜品评论.PNG" alt="img" style="zoom: 25%;" /><img src="./images4md/菜品筛选.PNG" alt="img" style="zoom: 25%;" />
 
 #### 交流社区
 
-<img src="/Users/dustin/Downloads/Dev/iCanteen/images4md/发帖.PNG" alt="img" style="zoom: 25%;" /><img src="/Users/dustin/Downloads/Dev/iCanteen/images4md/社区.PNG" alt="img" style="zoom: 25%;" /><img src="/Users/dustin/Downloads/Dev/iCanteen/images4md/评论.PNG" alt="img" style="zoom: 25%;" />
+<img src="./images4md/发帖.PNG" alt="img" style="zoom: 25%;" /><img src="./images4md/社区.PNG" alt="img" style="zoom: 25%;" /><img src="./images4md/评论.PNG" alt="img" style="zoom: 25%;" />
 
 #### 我的信息
 
-<img src="/Users/dustin/Downloads/Dev/iCanteen/images4md/我的.PNG" alt="img" style="zoom:25%;" /><img src="/Users/dustin/Downloads/Dev/iCanteen/images4md/我的发贴.png" alt="img" style="zoom:25%;" /><img src="/Users/dustin/Downloads/Dev/iCanteen/images4md/喜爱菜品.png" alt="img" style="zoom:25%;" />
+<img src="./images4md/我的.PNG" alt="img" style="zoom:25%;" /><img src="./images4md/我的发贴.png" alt="img" style="zoom:25%;" /><img src="./images4md/喜爱菜品.png" alt="img" style="zoom:25%;" />
 
 ### 目录结构
 
@@ -62,7 +62,7 @@
 Email：82610725@163.com
 
 WeChat：DalePeng
-<img src="/Users/dustin/Downloads/Dev/iCanteen/images4md/QR.jpeg" alt="img" style="zoom:25%;" />
+<img src="./images4md/QR.jpeg" alt="img" style="zoom:25%;" />
 
 
 
