@@ -1,0 +1,45 @@
+<!--食堂工作人员添加菜品-->
+<view>
+  <view class="titleCss">
+    <text class="titleTextCss">添加菜品</text>
+  </view>
+  <view class="weui-form__control-area">
+        <view class="weui-cells__group weui-cells__group_form">
+            <view class="weui-cells weui-cells_form">
+              <view class="weui-cell">
+                <view class="weui-cell__hd"><label class="weui-label">菜品名称</label></view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入菜名" bindinput = "inputname" />
+                </view>
+                </view>
+                 <view class="weui-cell">
+                <view class="weui-cell__hd"><label class="weui-label">菜品价格</label></view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入菜品价格" bindinput="inputprice"/>
+                    </view>
+              </view>
+            </view>
+        </view>
+      </view>
+      <view class="page__bd">
+        <view class="weui-btn-area">
+            <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                <button class="weui-btn" type="default">选择楼层</button>
+            </picker>
+        </view>
+    </view>
+
+  <!-- 上传图片 -->
+  <view>
+    <view bindtap="doUpload" data-name='{{dishname}}'>
+      <button class="weui-btn" type="default">上传菜品图片</button> 
+    </view>
+    <view class="uploader-container" wx:if="{{imgUrl}}">
+      <image class="uploader-image" src="{{imgUrl}}" mode="aspectFit" bindtap="previewImg"></image>
+    </view>
+  </view>
+
+  <view class="page__bd page__bd_spacing addBnCss">
+      <button class="weui-btn" type="primary" bindtap="addDish">确定</button>
+  </view>
+</view>

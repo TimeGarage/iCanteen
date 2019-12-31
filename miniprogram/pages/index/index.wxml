@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<!-- 爱食堂 -->
+<view class='header'>
+  <view class='logo'>
+    <image src='/assets/peking.jpg'></image>
+  </view>
+  <view class='search'>
+    <view bindtap = 'searchdish' hover-class="none">
+      <input focus='true' placeholder='搜索菜品...' bindinput='getvalue'>
+        <view class='search_icon'>
+          <image src='/assets/search.png'></image>
+        </view>
+      </input>
+    </view>
+    
+  </view>
+</view>
+<!-- 爱食堂nav -->
+<view class='nav'>
+  <navigator url='/pages/{{whichnav}}/navlist?type={{item}}' hover-class="none" wx:for="{{menu}}" wx:key="{{item}}">
+      <view class='menu_list'> {{item}} </view>
+  </navigator>
+</view>
+<!-- 爱食堂菜品 -->
+<view class='hot'>
+  <view class='hot_title'> —— 菜品 —— </view>
+  <view class='hot_list'>
+    <view class='list' wx:for="{{hotlist}}" wx:key="{{id}}">
+      <navigator url='/pages/menuDetail/menuDetail?menuid={{item._id}}'>
+        <view class='list_l'>
+          <image src='cloud://yelp-lq0ji.7965-yelp-lq0ji-1300864703/food/{{item.pic}}'></image>
+        </view>
+        <view class='list_r'>
+          <view class='r_title'>{{item.name}}</view>
+          <view class='bom'>
+            <view class='look'>{{item.floor}}楼</view>
+            <view class='price'>¥{{item.price}}</view>
+          </view>
+          <view class='bom'>
+            <view class='look'>点赞{{item.fav}}</view>
+            <view class='collect'>评论{{item.commentlength}}</view>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    
+  </view>
+</view>
+<!-- 爱食堂热门底部 -->
+<view class='footer'> —— 我是有底线的 —— </view>

@@ -1,0 +1,16 @@
+<!--miniprogram/pages/my/bookmark/bookmark.wxml-->
+<view class='discuss'>
+<view class='hot_title'> 我的收藏 </view>
+  <view class='discuss_list'>
+    <view class='list'  wx:for="{{discussMenu}}" wx:key="id">
+      <view class='list_r' bindtap="detail" data-id="{{item._id}}">
+        <view class='r_title'>{{item.nickname}}: {{item.content}}</view>
+        <view class='bom'>
+          <view class='look'>浏览 {{item.pageview}}</view>
+          <view class='collect'>收藏 {{item.bookmark}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='footer'> —— 我是有底线的 —— </view>

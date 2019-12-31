@@ -1,0 +1,16 @@
+<!--miniprogram/pages/my/message/message.wxml-->
+<view class='message'>
+<view class='hot_title'> 我的消息 </view>
+  <view class='message_list'>
+    <view class='list'  wx:for="{{messageShow}}" wx:key="id">
+      <view class='list_r' bindtap="detail" data-id="{{item[0]}}">
+        <view class='r_title'>帖子 {{item[1]}} 有新回复 [{{item[4]}}]</view>
+        <view class='bom'>
+          <view class='look'>更新于 {{item[3]}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='footer'> —— 我是有底线的 —— </view>
+

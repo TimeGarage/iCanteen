@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/discuss/discuss",
+    "pages/discuss/detail/detail",
+    "pages/discuss/comment/comment",
+    "pages/category/category",
+    "pages/my/my",
+    "pages/my/login/login",
+    "pages/my/reset/reset",
+    "pages/my/myfavor/myfavor",
+    "pages/navlist/navlist",
+    "pages/menuDetail/menuDetail",
+    "pages/addcomment/addcomment",
+    "pages/navlistwork/navlist",
+    "pages/navlistwork/adddish/adddish"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#C83C32",
+    "navigationBarTitleText": "爱食堂",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#fff",
+    "backgroundColor": "#C83C32",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/home.png",
+        "selectedIconPath": "/assets/home-actived.png"
+      },
+      {
+        "pagePath": "pages/discuss/discuss",
+        "text": "社区",
+        "iconPath": "/assets/board.png",
+        "selectedIconPath": "/assets/board-actived.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/assets/profile.png",
+        "selectedIconPath": "/assets/profile-actived.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

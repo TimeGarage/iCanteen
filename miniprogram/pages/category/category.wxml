@@ -1,0 +1,11 @@
+<!-- 闲暇时光小厨房分类 -->
+<view class='category'>
+  <view class='left_menu'>
+    <view class='category_menu' wx:for="{{categoryList}}" wx:key="{{id}}">
+      <text bindtap="shouAction" id="{{item.cName}}">{{item.cName}}</text>
+      <view class='right_menu' wx:if="{{action==item.cName}}">
+        <navigator url='/pages/navlist/navlist?id={{item.id}}' hover-class="none" wx:for="{{item.child}}" wx:key="{{id}}" bindtap='navlist'><view class='menu_list'>{{item.cName}}</view></navigator>
+      </view>
+    </view>
+  </view>
+</view>

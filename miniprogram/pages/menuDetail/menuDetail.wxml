@@ -1,0 +1,24 @@
+<!-- 爱食堂菜品详情页 -->
+<view class='menuDetail' wx:for="{{menuDetails}}" wx:key="{{id}}">
+  <image src='cloud://yelp-lq0ji.7965-yelp-lq0ji-1300864703/food/{{item.pic}}'></image>
+  <view class='main'>
+    <view class='title'>
+      <view>{{item.name}}</view>
+      <view class='ingredient_info'>
+        <view class='left'><view>¥{{item.price}}</view><view>食堂{{item.floor}}楼</view></view>
+        <view class='right'><image src='{{favourateImg}}' class='favourate-img' bindtap='addFavourate' data-id='{{item._id}}'></image><view>{{fav}}</view></view>
+      </view>
+    </view>
+    <view class='ingredient_title'>菜品评价<image src="./../../assets/addcomment.png" class='addcomment-img' bindtap='addcomment' data-id='{{item._id}}' ></image></view>
+    <view class="goods-text" style="margin-top:15rpx;" wx:for="{{item.comment}}" wx:key="id">
+      <view style="width:100rpx;float:left;">
+        <image style="width: 100rpx; height: 100rpx;" src='./../../assets/user.png'></image>
+      </view>
+      <view style="width:500rpx;float:left;margin-left:35rpx;border-bottom:1px solid #f4f4f4;">
+        <view>{{item.comments}}</view>
+        <view style="color: #B0B0B0;font-size:24rpx;">{{item.date}}</view>
+      </view>
+      <wxc-label class='goods-text-label' type='corner' text="{{item.goods.goodReputationStr}}"></wxc-label>
+</view>
+  </view>
+</view>

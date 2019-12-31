@@ -1,0 +1,35 @@
+/* miniprogram/pages/my/my.wxss */
+.header{
+  height: 100rpx;
+  /* background-color: #ccc; */
+  padding: 10rpx 10rpx 10rpx;
+  display: flex; 
+}
+.header .avatar{
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.header .login {
+
+  vertical-align: middle;
+  margin: 35rpx 20rpx 20rpx 20rpx;
+}
+.weui-cell__hd image {
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+.weui-cells::after{
+  content: none;
+  border-bottom: none;
+}
+
+.weui-cells::before{
+  border-top: none;
+}
+
+

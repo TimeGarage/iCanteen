@@ -1,0 +1,25 @@
+
+<!-- 爱食堂nav菜品列表 -->
+<view class='hot'>
+  <view class='hot_title'> {{title}} </view>
+  <view class='hot_list'>
+    <view class='list' wx:for="{{navlist}}" wx:key="{{id}}">
+      <navigator url='/pages/menuDetail/menuDetail?menuid={{item._id}}'>
+        <view class='list_l'>
+          <image src='cloud://yelp-lq0ji.7965-yelp-lq0ji-1300864703/food/{{item.pic}}'></image>
+        </view>
+        <view class='list_r'>
+          <view class='r_title'>{{item.name}}</view>
+          <view class='bom'>
+            <view class='look'>{{item.floor}}楼</view>
+            <view class='price'>¥{{item.price}}</view>
+          </view>
+          <view class='bom'>
+            <view class='look'>点赞{{item.fav}}</view>
+            <view class='collect'>评论{{item.commentlength}}</view>
+          </view>
+        </view>
+      </navigator>   
+    </view>
+  </view>
+</view>

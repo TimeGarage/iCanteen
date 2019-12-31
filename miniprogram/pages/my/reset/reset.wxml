@@ -1,0 +1,25 @@
+<!--miniprogram/pages/my/login/login.wxml-->
+<view class="container">
+  <view class="form-box">
+
+    <view class="form-item">
+      <input class="account" value="{{account}}" bindinput="bindaccountInput" placeholder="账号" />
+      <image class="clear" id="clear-account" wx:if="{{ account.length > 0 }}" src="/assets/images/clear_input.png" catchtap="clearInput"></image>
+    </view>
+
+    <view class="form-item">
+      <input class="oldpassword" value="{{password}}" password bindinput="bindPasswordInput" placeholder="原密码" />
+      <image class="clear" id="clear-password" wx:if="{{ password.length > 0 }}" src="/assets/images/clear_input.png" catchtap="clearInput"></image>
+    </view>
+    <view class="form-item">
+      <input class="newpassword" value="{{newpassword}}" password bindinput="bindNewPasswordInput" placeholder="新密码" />
+      <image class="clear" id="clear-newpassword" wx:if="{{ newpassword.length > 0 }}" src="/assets/images/clear_input.png" catchtap="clearInput"></image>
+    </view>
+    <view class="form-item">
+      <input class="confirmpassword" value="{{confirmpassword}}" password bindinput="bindConfirmPasswordInput" placeholder="确认密码" />
+      <image class="clear" id="clear-confirmpassword" wx:if="{{ confirmpassword.length > 0 }}" src="/assets/images/clear_input.png" catchtap="clearInput"></image>
+    </view>
+    <button type="default" class="login-btn" bindtap="reset">重置</button>
+
+  </view>
+</view>

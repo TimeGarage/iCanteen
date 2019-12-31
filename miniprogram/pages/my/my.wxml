@@ -1,0 +1,30 @@
+<!--miniprogram/pages/my/my.wxml-->
+<view class='header'>
+  <view class='avatar'>
+   <!--  is_login 为 false 的时候不显示头像 -->
+    <open-data  hidden="{{!is_login}}" type="userAvatarUrl" size='10rpx'></open-data>
+  </view>
+  <view class='login'>
+    <navigator url="{{login_url}}">
+      <text>{{username}}</text>
+    </navigator>
+  </view>
+</view>
+<view class="list-wrapper">
+  <view class="weui-cells weui-cells_after-title">
+    <block wx:for="{{myitems}}" wx:key="menu_for">
+      <navigator url="{{item.url}}" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+          <image src="{{item.icon}}"></image>
+        </view>
+        <view class="weui-cell__bd">{{item.text}}</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+    </block>
+  </view>
+</view>
+<!--
+<button style="display:{{!is_login ? none : flex}};" type="default" class="logout-btn" bindtap="logout">注销</button>
+-->
+
+<button hidden="{{!is_login}}" type="default" class="logout-btn" bindtap="logout">注销</button>

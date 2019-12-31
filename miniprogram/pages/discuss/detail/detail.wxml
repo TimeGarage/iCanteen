@@ -1,0 +1,48 @@
+<view class="weui-panel">
+            <view class="weui-panel__hd">贴子原文</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">楼主：{{nickname}}</view>
+                    <view class="weui-media-box__title">内容：{{review}}</view>
+                     <view class="weui-panel__hd" wx:if="{{photoPath.length!=0}}"></view>
+                    <view class="list-item" wx:if="{{photoPath.length!=0}}">
+                    <image class="weui-article__img" src="{{photoPath}}" mode="aspectFit" style="height: 180px" />
+                    </view>
+                    <view class="weui-media-box__info">
+                        <view class="weui-media-box__info__meta">发帖日期</view>
+                        <view class="weui-media-box__info__meta">{{content_time}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+<view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">评论区</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text" wx:for="{{admin}}" wx:key="id">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">{{item[2]}}: {{item[4]}}</view>
+                </view>
+                <view class="weui-media-box weui-media-box_text" wx:for="{{stu}}"  wx:key="id">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">{{item[2]}}: {{item[4]}}</view>
+                </view>
+            </view>
+        </view>
+
+<view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell">
+        <view class="weui-cell__bd">
+<form bindsubmit="formSubmit">
+<view class="weui-cells__title">发表新评论</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell ">
+                <view class="weui-cell__bd">
+                    <input class="weui-input" name="comment" value="{{name}}" placeholder="在此输入您的评论"></input>
+                </view>
+            </view>
+</view>
+<button class="weui-btn" type="primary" form-type="submit">提交</button>
+<button class="weui-btn" type="default" bindtap="book">{{bookmark}}</button>
+</form>
+    </view>
+  </view>
+</view>

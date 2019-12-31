@@ -1,0 +1,14 @@
+<!-- 爱食堂添加评价页 -->
+<view class='ingredient_title'>写评价</view>
+<view class='recommend'>
+<form bindsubmit="newcomment">
+    <textarea placeholder="请输入您的评价..." name="textarea"/>
+    <view class="guide">
+      <div class="nav">
+        <button class="prev" size="large" form-type="submit"> 提交 </button>
+        <button class="next" size="large" type="default" bindtap="goback">取消</button>
+      </div>
+    </view>
+</form>
+</view>
+
