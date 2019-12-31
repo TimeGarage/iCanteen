@@ -57,7 +57,7 @@
 
 ### 联系方式
 
-个人博客：[「少数派报告」](www.timegarage.works)
+个人博客：[「少数派报告」](https://www.timegarage.works)
 
 Email：82610725@163.com
 
