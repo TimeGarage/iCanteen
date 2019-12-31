@@ -16,43 +16,43 @@
 
 #### 菜品展示
 
-<img src="./images4md/首页.PNG" alt="img" width="200px" /><img src="./images4md/菜品评论.PNG" alt="img" width="200px" /><img src="./images4md/菜品筛选.PNG" alt="img" width="200px" />
+<img src="./images4md/首页.PNG" alt="img" width="200px" /> <img src="./images4md/菜品评论.PNG" alt="img" width="200px" /> <img src="./images4md/菜品筛选.PNG" alt="img" width="200px" />
 
 #### 交流社区
 
-<img src="./images4md/发帖.PNG" alt="img" width="200px" /><img src="./images4md/社区.PNG" alt="img" width="200px" /><img src="./images4md/评论.PNG" alt="img" width="200px" />
+<img src="./images4md/发帖.PNG" alt="img" width="200px" /> <img src="./images4md/社区.PNG" alt="img" width="200px" /> <img src="./images4md/评论.PNG" alt="img" width="200px" />
 
 #### 我的信息
 
-<img src="./images4md/我的.PNG" alt="img" width="200px" /><img src="./images4md/我的发贴.png" alt="img" width="200px" /><img src="./images4md/喜爱菜品.png" alt="img" width="200px" />
+<img src="./images4md/我的.PNG" alt="img" width="200px" /> <img src="./images4md/我的发贴.png" alt="img" width="200px" /> <img src="./images4md/喜爱菜品.png" alt="img" width="200px" />
 
 ### 目录结构
 
 ```
-├── cloudfunctions //云函数文件夹
-│   ├── addBookmark //收藏贴子
-│   ├── addComment  //贴子评论
-│   ├── addMessage  //写入我的消息
-│   ├── addPageview  //增加浏览计数
+├── cloudfunctions     //云函数文件夹
+│   ├── addBookmark    //收藏贴子
+│   ├── addComment     //贴子评论
+│   ├── addMessage     //写入我的消息
+│   ├── addPageview    //增加浏览计数
 │   ├── addcommentnum  //增加评论计数
-│   ├── addcontent  //上传菜品
-│   ├── addfav  //点赞
-│   ├── changePassword  //修改密码
-│   ├── clearMessage  //清除消息
-├── images4md  //运行截图
-└── miniprogram  //小程序文件夹
-    ├── assets  //素材文件夹
-    │   └── images  //图片素材
-    ├── pages  //页面文件夹
-    │   ├── addcomment  //菜品评论页
-    │   ├── category  //菜品分类页
-    │   ├── discuss  //交流社区页
-    │   ├── index  //首页
-    │   ├── menuDetail  //菜品详情页
-    │   ├── my  //我的信息页
-    └── utils
-        ├── util.js //工具
-        ├── Date.js //日期格式转换
+│   ├── addcontent     //上传菜品
+│   ├── addfav         //点赞
+│   ├── changePassword //修改密码
+│   ├── clearMessage   //清除消息
+├── images4md          //运行截图
+└── miniprogram        //小程序文件夹
+    ├── assets         //素材文件夹
+    │   └── images     //图片素材
+    ├── pages          //页面文件夹
+    │   ├── addcomment //菜品评论页
+    │   ├── category   //菜品分类页
+    │   ├── discuss    //交流社区页
+    │   ├── index      //首页
+    │   ├── menuDetail //菜品详情页
+    │   ├── my         //我的信息页
+    └── utils          //第三方Javascript函数
+        ├── util.js    //工具
+        ├── Date.js    //日期格式转换
 ```
 
 ### 联系方式
