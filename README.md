@@ -1,4 +1,4 @@
-# iCanteen - 爱食堂
+# 爱食堂
 
 [![HitCount](http://hits.dwyl.io/TimeGarage/TimeGarage/iCanteen.svg)](http://hits.dwyl.io/TimeGarage/TimeGarage/iCanteen)&ensp; ![stars](https://img.shields.io/github/stars/TimeGarage/iCanteen?color=yellow&style=flat-square)&ensp; ![forks](https://img.shields.io/github/forks/TimeGarage/iCanteen?style=flat-square)&ensp; ![issues](https://img.shields.io/github/issues/TimeGarage/iCanteen?color=red&style=flat-square)&ensp; ![license](https://img.shields.io/github/license/TimeGarage/iCanteen?style=flat-square)
 
@@ -6,7 +6,7 @@
 
 爱食堂是一款针对学生和食堂工作人员的微信小程序，后端采用Serverless架构实现。这个项目的设计初衷是建立起食堂和学生沟通的平台，让学生通过评论、点赞、发帖等形式向食堂工作人员提供合理的建议。同时，也让食堂工作人员根据这些信息优化自身服务，推出更符合学生口味的菜品。
 
-### 技术点
+### 技术要点
 
 - 云存储
 - 云函数
