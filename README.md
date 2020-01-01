@@ -1,6 +1,6 @@
 ## iCanteen - 爱食堂
 
-[![HitCount](http://hits.dwyl.io/TimeGarage/TimeGarage/iCanteen.svg)](http://hits.dwyl.io/TimeGarage/TimeGarage/iCanteen)![stars](https://img.shields.io/github/stars/TimeGarage/iCanteen?color=yellow&style=flat-square)![forks](https://img.shields.io/github/forks/TimeGarage/iCanteen?style=flat-square)![issues](https://img.shields.io/github/issues/TimeGarage/iCanteen?color=red&style=flat-square)![license](https://img.shields.io/github/license/TimeGarage/iCanteen?style=flat-square)
+[![HitCount](http://hits.dwyl.io/TimeGarage/TimeGarage/iCanteen.svg)](http://hits.dwyl.io/TimeGarage/TimeGarage/iCanteen) ![stars](https://img.shields.io/github/stars/TimeGarage/iCanteen?color=yellow&style=flat-square) ![forks](https://img.shields.io/github/forks/TimeGarage/iCanteen?style=flat-square) ![issues](https://img.shields.io/github/issues/TimeGarage/iCanteen?color=red&style=flat-square) ![license](https://img.shields.io/github/license/TimeGarage/iCanteen?style=flat-square)
 
 ### 项目介绍
 
